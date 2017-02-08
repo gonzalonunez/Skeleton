@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Skeleton  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Skeleton  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Skeleton Docs</a> (68% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Skeleton Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Skeleton  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/GradientContainerView.html">GradientContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/GradientView.html">GradientView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/Direction.html">Direction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/GradientProperty.html">GradientProperty</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/CABasicAnimation.html">CABasicAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CAGradientLayer.html">CAGradientLayer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions/--&gt;(_:_:).html">--&gt;(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/GradientsOwner.html">GradientsOwner</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/GradientPoint.html">GradientPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GradientPoint/Location.html">– Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Transition.html">Transition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Typealiases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8Skeleton18GradientTransition">GradientTransition</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <a href='#skeleton-skull' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='skeleton-skull'>Skeleton :skull:</h1>
+
+<p><a href="https://cocoapods.org/pods/Skeleton">
+    <img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat"
+         alt="Pods Version">
+</a>
+<a href="https://gonzalonunez.me/Skeleton/">
+    <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat"
+         alt="Platforms">
+</a></p>
+
+<p>An easy way to create sliding <code>CAGradientLayer</code> animations! Works great for creating skeleton screens for loading content.
+<br>
+<br>
+<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
+<br>
+<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
+<br>
+<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
+<br>
+<br>
+I plan on expanding this library with functionality that allows easily converting a regular <code>UITableViewCell</code> or <code>UICollectionViewCell</code> to it&rsquo;s skeleton screen equivalent, hence the name Skeleton. I just haven&rsquo;t figured out exactly how I want to do that yet! :sweat_smile:</p>
+
+<hr>
+<a href='#overview' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='overview'>Overview</h2>
+
+<p>In essence, the entire library comes down to just one extension:</p>
+<pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">CAGradientLayer</span> <span class="p">{</span>
+  <span class="kd">public</span> <span class="kd">func</span> <span class="nf">slide</span><span class="p">(</span><span class="n">to</span> <span class="nv">dir</span><span class="p">:</span> <span class="kt">Direction</span><span class="p">,</span> <span class="nv">group</span><span class="p">:</span> <span class="p">((</span><span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span> <span class="nv">$0</span> <span class="p">})</span>
+  <span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopSliding</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Everything else is there to help you out and provide convenience! You can check out the <a href="http://www.gonzalonunez.me/Skeleton/">documentation</a> for more.</p>
+<a href='#example' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='example'>Example</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='installation'>Installation</h2>
+
+<p>Skeleton is available through <a href="http://cocoapods.org">CocoaPods</a>. To install it, simply add the following line to your Podfile:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"Skeleton"</span>
+</code></pre>
+<a href='#author' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='author'>Author</h2>
+
+<p>Gonzalo Nuñez, <a href="mailto:hello@gonzalonunez.me">hello@gonzalonunez.me</a></p>
+<a href='#license' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='license'>License</h2>
+
+<p>Skeleton is available under the MIT license. See the LICENSE file for more info.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/gonzalonunez/Skeleton" target="_blank" rel="external">Gonzalo Nuñez</a>. All rights reserved. (Last updated: 2017-02-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

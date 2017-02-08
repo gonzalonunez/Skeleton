@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="2by-zD-amZ" customClass="SkeletonCell" customModule="Skeleton_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2by-zD-amZ" id="Cqz-Ej-vQr">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsV-FJ-ZCR">
+                        <rect key="frame" x="8" y="8" width="53" height="53"/>
+                        <color key="backgroundColor" red="0.87450980389999999" green="0.87563550469999996" blue="0.87565046550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ZsV-FJ-ZCR" secondAttribute="height" multiplier="1:1" id="4Tt-h6-QZ2"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yR3-iT-lIO" customClass="GradientContainerView" customModule="Skeleton">
+                        <rect key="frame" x="77" y="22.5" width="282" height="8"/>
+                        <color key="backgroundColor" red="0.87450980389999999" green="0.87563550469999996" blue="0.87565046550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="ASy-QD-b14"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8W-wS-kE5" customClass="GradientContainerView" customModule="Skeleton">
+                        <rect key="frame" x="77" y="38.5" width="202" height="8"/>
+                        <color key="backgroundColor" red="0.87450980389999999" green="0.87563550469999996" blue="0.87565046550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="hrc-3R-QBk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="I8W-wS-kE5" firstAttribute="leading" secondItem="yR3-iT-lIO" secondAttribute="leading" id="4tV-n2-17i"/>
+                    <constraint firstItem="I8W-wS-kE5" firstAttribute="top" secondItem="yR3-iT-lIO" secondAttribute="bottom" constant="8" id="8pK-Pf-REg"/>
+                    <constraint firstItem="yR3-iT-lIO" firstAttribute="centerY" secondItem="ZsV-FJ-ZCR" secondAttribute="centerY" constant="-8" id="HNm-w5-xhk"/>
+                    <constraint firstAttribute="bottom" secondItem="ZsV-FJ-ZCR" secondAttribute="bottom" constant="8" id="YCr-sh-Unq"/>
+                    <constraint firstAttribute="trailing" secondItem="yR3-iT-lIO" secondAttribute="trailing" constant="16" id="oMO-nQ-1mR"/>
+                    <constraint firstItem="yR3-iT-lIO" firstAttribute="leading" secondItem="ZsV-FJ-ZCR" secondAttribute="trailing" constant="16" id="sdc-Si-SG5"/>
+                    <constraint firstItem="ZsV-FJ-ZCR" firstAttribute="top" secondItem="Cqz-Ej-vQr" secondAttribute="top" constant="8" id="t9a-JQ-ysS"/>
+                    <constraint firstItem="ZsV-FJ-ZCR" firstAttribute="leading" secondItem="Cqz-Ej-vQr" secondAttribute="leading" constant="8" id="ugq-aA-E5Z"/>
+                    <constraint firstAttribute="trailing" secondItem="I8W-wS-kE5" secondAttribute="trailing" constant="96" id="wrJ-yU-CWZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imagePlaceholderView" destination="ZsV-FJ-ZCR" id="XLb-mv-keb"/>
+                <outlet property="subtitlePlaceholderView" destination="I8W-wS-kE5" id="CnG-XV-wow"/>
+                <outlet property="titlePlaceholderView" destination="yR3-iT-lIO" id="AKj-vb-bic"/>
+            </connections>
+            <point key="canvasLocation" x="-88.5" y="-24"/>
+        </tableViewCell>
+    </objects>
+</document>

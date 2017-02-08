@@ -1,0 +1,110 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/Direction.swift",
+      "line": 13,
+      "symbol": "GradientProperty.startPoint",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/Direction.swift",
+      "line": 14,
+      "symbol": "GradientProperty.endPoint",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/Direction.swift",
+      "line": 19,
+      "symbol": "Direction.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/Direction.swift",
+      "line": 20,
+      "symbol": "Direction.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientContainerView.swift",
+      "line": 13,
+      "symbol": "GradientContainerView.gradientView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientContainerView.swift",
+      "line": 15,
+      "symbol": "GradientContainerView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientContainerView.swift",
+      "line": 20,
+      "symbol": "GradientContainerView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientPoint.swift",
+      "line": 15,
+      "symbol": "GradientPoint.Location.default",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientPoint.swift",
+      "line": 17,
+      "symbol": "GradientPoint.Location.negativeOne",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientPoint.swift",
+      "line": 18,
+      "symbol": "GradientPoint.Location.zero",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientPoint.swift",
+      "line": 19,
+      "symbol": "GradientPoint.Location.one",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientPoint.swift",
+      "line": 20,
+      "symbol": "GradientPoint.Location.two",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientView.swift",
+      "line": 13,
+      "symbol": "GradientView.layerClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientsOwner.swift",
+      "line": 18,
+      "symbol": "GradientsOwner.slide(to:group:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonzalonunez/skeleton/Skeleton/GradientsOwner.swift",
+      "line": 22,
+      "symbol": "GradientsOwner.stopSliding()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/gonzalonunez/skeleton"
+}
