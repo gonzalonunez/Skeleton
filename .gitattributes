@@ -1,1 +1,3 @@
 Example/Pods/* linguist-vendored
+Example/Podfile linguist-vendored
+Skeleton.podspec linguist-vendored
