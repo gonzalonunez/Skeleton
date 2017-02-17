@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat"
          alt="Pods Version">
 </a>
-<a href="https://gonzalonunez.me/Skeleton/">
+<a href="http://www.gonzalonunez.me/Skeleton/">
     <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat"
          alt="Platforms">
 </a>
