@@ -16,7 +16,7 @@ class SkeletonTableViewController: UITableViewController {
     super.viewDidLoad()
     title = "Contacts"
     
-    tableView.isScrollEnabled = false
+    tableView.isScrollEnabled = true
     tableView.separatorStyle = .none
     
     let nib = UINib(nibName: String(describing: SkeletonCell.self), bundle: nil)
