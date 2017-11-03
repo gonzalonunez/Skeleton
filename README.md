@@ -47,6 +47,8 @@ Skeleton is available through [CocoaPods](http://cocoapods.org). To install it, 
 pod "Skeleton"
 ```
 
+Skeleton is also available through [Carthage](https://github.com/Carthage/Carthage). 
+
 ## Author
 
 Gonzalo Nuñez, hello@gonzalonunez.me
