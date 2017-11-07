@@ -1,13 +1,8 @@
 # Skeleton :skull:
 
-<a href="https://cocoapods.org/pods/Skeleton">
-    <img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat"
-         alt="Pods Version">
-</a>
-<a href="http://www.gonzalonunez.me/Skeleton/">
-    <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat"
-         alt="Platforms">
-</a>
+[![Platforms](https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat)](http://www.gonzalonunez.me/Skeleton/)
+[![Pods version](https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat)](https://cocoapods.org/pods/Skeleton)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 An easy way to create sliding `CAGradientLayer` animations! Works great for creating skeleton screens for loading content.
 <br>
