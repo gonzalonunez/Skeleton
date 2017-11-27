@@ -48,6 +48,8 @@ Skeleton is also available through [Carthage](https://github.com/Carthage/Cartha
 github "gonzalonunez/Skeleton" ~> 0.1.2
 ```
 
+**Note:** If you'd like to use the Swift 3 version instead of the Swift 4 version (there were no changes to the code), you can use version `0.1.1` or `0.1.0`. See the change log for more.
+
 ## Author
 
 Gonzalo Nuñez, hello@gonzalonunez.me
