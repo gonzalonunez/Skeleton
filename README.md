@@ -45,7 +45,7 @@ pod "Skeleton"
 Skeleton is also available through [Carthage](https://github.com/Carthage/Carthage). Add this to your Cartfile:
 
 ```
-github "gonzalonunez/Skeleton" ~> 0.1.1
+github "gonzalonunez/Skeleton" ~> 0.1.2
 ```
 
 ## Author
