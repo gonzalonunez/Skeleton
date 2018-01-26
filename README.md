@@ -24,7 +24,7 @@ In essence, the entire library comes down to just one extension:
 
 ```swift
 public extension CAGradientLayer {
-  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> CAAnimationGroup) = { $0 })
+  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in })
   public func stopSliding()
 }
 ```
@@ -45,10 +45,8 @@ pod "Skeleton"
 Skeleton is also available through [Carthage](https://github.com/Carthage/Carthage). Add this to your Cartfile:
 
 ```
-github "gonzalonunez/Skeleton" ~> 0.1.2
+github "gonzalonunez/Skeleton" ~> 0.2.1
 ```
-
-**Note:** If you'd like to use the Swift 3 version instead of the Swift 4 version (there were no changes to the code), you can use version `0.1.1` or `0.1.0`. See the change log for more.
 
 ## Author
 
