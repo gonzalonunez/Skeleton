@@ -56,13 +56,21 @@ public enum Direction {
   func transition(for point: GradientProperty) -> GradientTransition {
     switch (self, point) {
     case (.right, .startPoint):
-      return GradientPoint(x: .negativeOne) --> GradientPoint(x: .one)
+      return GradientTransition(
+        from: GradientPoint(x: .negativeOne),
+        to: GradientPoint(x: .one))
     case (.right, .endPoint):
-      return GradientPoint(x: .zero) --> GradientPoint(x: .two)
+      return GradientTransition(
+        from: GradientPoint(x: .zero),
+        to: GradientPoint(x: .two))
     case (.left, .startPoint):
-      return GradientPoint(x: .one) --> GradientPoint(x: .negativeOne)
+      return GradientTransition(
+        from: GradientPoint(x: .one),
+        to: GradientPoint(x: .negativeOne))
     case (.left, .endPoint):
-      return GradientPoint(x: .two) --> GradientPoint(x: .zero)
+      return GradientTransition(
+        from: GradientPoint(x: .two),
+        to: GradientPoint(x: .zero))
     }
   }
 }
