@@ -10,9 +10,9 @@ import UIKit
 
 extension CABasicAnimation {
   /// A convenient way to apply a `GradientTransition` to a `CABasicAnimation`.
-  func applyGradientTransition(_ transition: GradientTransition) {
-    fromValue = NSValue(cgPoint: transition.from.cgPoint)
-    toValue = NSValue(cgPoint: transition.to.cgPoint)
+  func apply(gradientTransition: GradientTransition) {
+    fromValue = NSValue(cgPoint: gradientTransition.from.cgPoint)
+    toValue = NSValue(cgPoint: gradientTransition.to.cgPoint)
   }
 }
 
@@ -28,15 +28,15 @@ public extension CAGradientLayer {
    
    - parameter group: A function that takes in and returns a `CAAnimationGroup`. Useful to modify the `CAAnimationGroup` that is used to animate the `CAGradientLayer`. By default, no modifications are made to the corresponding `CAAnimationGroup`.
   */
-  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> CAAnimationGroup) = { $0 }) {
+  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
     let startPointTransition = dir.transition(for: .startPoint)
     let endPointTransition = dir.transition(for: .endPoint)
 
     let startPointAnim = CABasicAnimation(keyPath: #keyPath(startPoint))
-    startPointAnim.applyGradientTransition(startPointTransition)
+    startPointAnim.apply(gradientTransition: startPointTransition)
     
     let endPointAnim = CABasicAnimation(keyPath: #keyPath(endPoint))
-    endPointAnim.applyGradientTransition(endPointTransition)
+    endPointAnim.apply(gradientTransition: endPointTransition)
     
     let animGroup = CAAnimationGroup()
     animGroup.animations = [startPointAnim, endPointAnim]
@@ -44,7 +44,8 @@ public extension CAGradientLayer {
     animGroup.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
     animGroup.repeatCount = .infinity
     
-    add(group(animGroup), forKey: CAGradientLayer.kSlidingAnimationKey)
+    group(animGroup)
+    add(animGroup, forKey: CAGradientLayer.kSlidingAnimationKey)
   }
   
   /// Stop sliding the `CAGradientLayer`.
