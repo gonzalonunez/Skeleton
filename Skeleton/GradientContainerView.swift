@@ -8,7 +8,8 @@
 
 import UIKit
 
-/// A view that contains a `GradientView`. Useful for sliding a `CAGradientLayer` without affecting the bottom-most `CALayer`.
+/// A view that contains a `GradientView`. Useful for sliding a `CAGradientLayer` without
+/// affecting the bottom-most `CALayer`.
 public class GradientContainerView: UIView {
   fileprivate let gradientView = GradientView(frame: .zero)
   
