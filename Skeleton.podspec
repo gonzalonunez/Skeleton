@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Skeleton'
-  s.version          = '0.1.2'
+  s.version          = '0.2.0'
   s.summary          = 'Skeleton is an easy way to create sliding CAGradientLayer animations!'
 
 # This description is used to generate tags and improve search results.
