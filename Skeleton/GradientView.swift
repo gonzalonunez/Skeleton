@@ -22,7 +22,7 @@ extension GradientView {
   }
   
   /// A convenient way to slide the `GradientView`'s corresponding `CAGradientLayer`.
-  func slide(to dir: Direction, group: ((CAAnimationGroup) -> CAAnimationGroup) = { $0 }) {
+  func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { $0 }) {
     return gradientLayer.slide(to: dir, group: group)
   }
   

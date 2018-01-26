@@ -8,14 +8,15 @@
 
 import UIKit
 
-/// A protocol that allows grouping `CAGradientLayer`s together. Useful to have built-in sliding behavior for all `CAGradientLayer`s in `gradientLayers`.
+/// A protocol that allows grouping `CAGradientLayer`s together. Useful to have built-in sliding
+/// behavior for all `CAGradientLayer`s in `gradientLayers`.
 public protocol GradientsOwner: class {
   /// The `CAGradientLayer`s that will be sliding when `slide(to dir: Direction)` is called.
   var gradientLayers: [CAGradientLayer] { get }
 }
 
 public extension GradientsOwner {
-  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> CAAnimationGroup) = { $0 }) {
+  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
     gradientLayers.forEach({ $0.slide(to: dir, group: group) })
   }
   
