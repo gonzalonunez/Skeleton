@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-An easy way to create sliding CAGradientLayer animations! Works great for creating skeleton screens for loading content.
+Skeleton is an easy way to create sliding CAGradientLayer animations! Works great for creating skeleton screens for loading content.
                        DESC
 
   s.homepage         = 'https://github.com/gonzalonunez/Skeleton'
