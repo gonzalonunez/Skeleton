@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>GradientsOwner Protocol Reference</title>
+    <title>GradientView Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Protocol/GradientsOwner" class="dashAnchor"></a>
-    <a title="GradientsOwner Protocol Reference"></a>
+    <a name="//apple_ref/swift/Class/GradientView" class="dashAnchor"></a>
+    <a title="GradientView Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Skeleton Docs</a> (75% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Skeleton Reference</a>
         <img id="carat" src="../img/carat.png" />
-        GradientsOwner Protocol Reference
+        GradientView Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -87,15 +87,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>GradientsOwner</h1>
+            <h1>GradientView</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">GradientsOwner</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">GradientView</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
 
                 </div>
               </div>
-            <p>A protocol that allows grouping <code>CAGradientLayer</code>s together. Useful to have built-in sliding
-behavior for all <code>CAGradientLayer</code>s in <code>gradientLayers</code>.</p>
+            <p>A view who&rsquo;s <code>layerClass</code> is a <code>CAGradientLayer</code>.</p>
 
           </section>
           <section class="section task-group-section">
@@ -104,9 +103,9 @@ behavior for all <code>CAGradientLayer</code>s in <code>gradientLayers</code>.</
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8Skeleton14GradientsOwnerP14gradientLayersSaySo15CAGradientLayerCGv"></a>
-                    <a name="//apple_ref/swift/Property/gradientLayers" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8Skeleton14GradientsOwnerP14gradientLayersSaySo15CAGradientLayerCGv">gradientLayers</a>
+                    <a name="/c:@M@Skeleton@objc(cs)GradientView(cpy)layerClass"></a>
+                    <a name="//apple_ref/swift/Variable/layerClass" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Skeleton@objc(cs)GradientView(cpy)layerClass">layerClass</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -114,14 +113,14 @@ behavior for all <code>CAGradientLayer</code>s in <code>gradientLayers</code>.</
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The <code>CAGradientLayer</code>s that will be sliding when <code>slide(to dir: Direction)</code> is called.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">gradientLayers</span><span class="p">:</span> <span class="p">[</span><span class="kt">CAGradientLayer</span><span class="p">]</span></code></pre>
+                          <pre class="highlight"><code><span class="k">override</span> <span class="n">open</span> <span class="kd">class</span> <span class="k">var</span> <span class="nv">layerClass</span><span class="p">:</span> <span class="kt">AnyClass</span></code></pre>
 
                         </div>
                       </div>
@@ -135,27 +134,24 @@ behavior for all <code>CAGradientLayer</code>s in <code>gradientLayers</code>.</
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8Skeleton14GradientsOwnerPAAE5slideyAA9DirectionO2to_ySo16CAAnimationGroupCc5grouptF"></a>
-                    <a name="//apple_ref/swift/Method/slide(to:group:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8Skeleton14GradientsOwnerPAAE5slideyAA9DirectionO2to_ySo16CAAnimationGroupCc5grouptF">slide(to:group:)</a>
+                    <a name="/s:8Skeleton12GradientViewC13gradientLayerSo010CAGradientE0Cv"></a>
+                    <a name="//apple_ref/swift/Property/gradientLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Skeleton12GradientViewC13gradientLayerSo010CAGradientE0Cv">gradientLayer</a>
                     </code>
-                      <span class="declaration-note">
-                        Extension method
-                      </span>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A convenient way to slide the <code>GradientOwner</code>&rsquo;s corresponding <code><a href="../Protocols/GradientsOwner.html#/s:8Skeleton14GradientsOwnerP14gradientLayersSaySo15CAGradientLayerCGv">gradientLayers</a></code>.</p>
+                        <p>A convenient way to access the <code>GradientView</code>&rsquo;s corresponding <code>CAGradientLayer</code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">slide</span><span class="p">(</span><span class="n">to</span> <span class="nv">dir</span><span class="p">:</span> <span class="kt"><a href="../Enums/Direction.html">Direction</a></span><span class="p">,</span> <span class="nv">group</span><span class="p">:</span> <span class="p">((</span><span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span> <span class="n">_</span> <span class="k">in</span> <span class="p">})</span></code></pre>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">gradientLayer</span><span class="p">:</span> <span class="kt">CAGradientLayer</span></code></pre>
 
                         </div>
                       </div>
@@ -165,27 +161,51 @@ behavior for all <code>CAGradientLayer</code>s in <code>gradientLayers</code>.</
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8Skeleton14GradientsOwnerPAAE11stopSlidingyyF"></a>
-                    <a name="//apple_ref/swift/Method/stopSliding()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8Skeleton14GradientsOwnerPAAE11stopSlidingyyF">stopSliding()</a>
+                    <a name="/s:8Skeleton12GradientViewC5slideyAA9DirectionO2to_ySo16CAAnimationGroupCc5grouptF"></a>
+                    <a name="//apple_ref/swift/Method/slide(to:group:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Skeleton12GradientViewC5slideyAA9DirectionO2to_ySo16CAAnimationGroupCc5grouptF">slide(to:group:)</a>
                     </code>
-                      <span class="declaration-note">
-                        Extension method
-                      </span>
                   </div>
                   <div class="height-container">
                     <div class="pointer-container"></div>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A convenient way to stop sliding the <code>GradientOwner</code>&rsquo;s corresponding <code><a href="../Protocols/GradientsOwner.html#/s:8Skeleton14GradientsOwnerP14gradientLayersSaySo15CAGradientLayerCGv">gradientLayers</a></code>.</p>
+                        <p>A convenient way to slide the <code>GradientView</code>&rsquo;s corresponding <code>CAGradientLayer</code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopSliding</span><span class="p">()</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">slide</span><span class="p">(</span><span class="n">to</span> <span class="nv">dir</span><span class="p">:</span> <span class="kt"><a href="../Enums/Direction.html">Direction</a></span><span class="p">,</span> <span class="nv">group</span><span class="p">:</span> <span class="p">((</span><span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span> <span class="n">_</span> <span class="k">in</span> <span class="p">})</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Skeleton12GradientViewC11stopSlidingyyF"></a>
+                    <a name="//apple_ref/swift/Method/stopSliding()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Skeleton12GradientViewC11stopSlidingyyF">stopSliding()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A convenient way to stop sliding the <code>GradientView</code>&rsquo;s corresponding <code>CAGradientLayer</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">stopSliding</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
