@@ -15,7 +15,7 @@
     </a>
 </p>
 
-Skeleton is easy way to create sliding `CAGradientLayer` animations! It works great for creating skeleton screens:
+Skeleton is an easy way to create sliding `CAGradientLayer` animations! It works great for creating skeleton screens:
 
 <img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
 
