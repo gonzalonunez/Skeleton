@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>GradientContainerView Class Reference</title>
+    <title>CABasicAnimation Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/GradientContainerView" class="dashAnchor"></a>
-    <a title="GradientContainerView Class Reference"></a>
+    <a name="//apple_ref/swift/Extension/CABasicAnimation" class="dashAnchor"></a>
+    <a title="CABasicAnimation Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Skeleton Docs</a> (75% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Skeleton Reference</a>
         <img id="carat" src="../img/carat.png" />
-        GradientContainerView Class Reference
+        CABasicAnimation Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -87,16 +87,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>GradientContainerView</h1>
+            <h1>CABasicAnimation</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">GradientContainerView</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">CABasicAnimation</span> <span class="p">:</span> <span class="kt">CAPropertyAnimation</span></code></pre>
 
                 </div>
               </div>
-            <p>A view that contains a <code><a href="../Classes/GradientView.html">GradientView</a></code>. Useful for sliding a <code>CAGradientLayer</code> without
-affecting the bottom-most <code>CALayer</code>.</p>
-
+            
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -104,9 +102,9 @@ affecting the bottom-most <code>CALayer</code>.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8Skeleton21GradientContainerViewC13gradientLayerSo010CAGradientF0Cv"></a>
-                    <a name="//apple_ref/swift/Property/gradientLayer" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8Skeleton21GradientContainerViewC13gradientLayerSo010CAGradientF0Cv">gradientLayer</a>
+                    <a name="/s:So16CABasicAnimationC8SkeletonE5applyyAC18GradientTransitionV08gradientF0_tF"></a>
+                    <a name="//apple_ref/swift/Method/apply(gradientTransition:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So16CABasicAnimationC8SkeletonE5applyyAC18GradientTransitionV08gradientF0_tF">apply(gradientTransition:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -114,14 +112,14 @@ affecting the bottom-most <code>CALayer</code>.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A convenient way to access the <code>GradientContainerView</code>&rsquo;s corresponding <code>CAGradientLayer</code>.</p>
+                        <p>A convenient way to apply a <code><a href="../Structs/GradientTransition.html">GradientTransition</a></code> to a <code>CABasicAnimation</code>.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gradientLayer</span><span class="p">:</span> <span class="kt">CAGradientLayer</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">apply</span><span class="p">(</span><span class="nv">gradientTransition</span><span class="p">:</span> <span class="kt"><a href="../Structs/GradientTransition.html">GradientTransition</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>

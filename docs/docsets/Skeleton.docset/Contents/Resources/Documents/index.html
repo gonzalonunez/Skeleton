@@ -13,7 +13,7 @@
     <a title="Skeleton  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Skeleton Docs</a> (62% documented)</p>
+        <p><a href="index.html">Skeleton Docs</a> (75% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -32,6 +32,9 @@
               <li class="nav-group-task">
                 <a href="Classes/GradientContainerView.html">GradientContainerView</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Classes/GradientView.html">GradientView</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -40,11 +43,17 @@
               <li class="nav-group-task">
                 <a href="Enums/Direction.html">Direction</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Enums/GradientProperty.html">GradientProperty</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
             <a href="Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/CABasicAnimation.html">CABasicAnimation</a>
+              </li>
               <li class="nav-group-task">
                 <a href="Extensions/CAGradientLayer.html">CAGradientLayer</a>
               </li>
@@ -58,66 +67,77 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/GradientPoint.html">GradientPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GradientPoint/Location.html">– Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GradientTransition.html">GradientTransition</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
         <section>
           <section class="section">
             
-            <h1 id='skeleton-skull' class='heading'>Skeleton :skull:</h1>
+            <p align="center">
+    <img src="logo.png" width="300" max-width="50%" alt="Skeleton" />
+</p>
 
-<p><a href="http://www.gonzalonunez.me/Skeleton/"><img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat" alt="Platforms"></a>
-<a href="https://cocoapods.org/pods/Skeleton"><img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat" alt="Pods version"></a>
-<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a></p>
+<p align="center">
+    <a href="http://www.gonzalonunez.me/Skeleton/">
+        <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat" />
+    </a>
+    <a href="https://cocoapods.org/pods/Skeleton">
+        <img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat" />
+    </a>
+    <a href="https://github.com/Carthage/Carthage">
+        <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+    </a>
+</p>
 
-<p>An easy way to create sliding <code>CAGradientLayer</code> animations! Works great for creating skeleton screens for loading content.
-<br>
-<br>
-<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
-<br>
-<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
-<br>
-<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
-<br>
-<br>
-I plan on expanding this library with functionality that allows easily converting a regular <code>UITableViewCell</code> or <code>UICollectionViewCell</code> to it&rsquo;s skeleton screen equivalent, hence the name Skeleton. I just haven&rsquo;t figured out exactly how I want to do that yet! :sweat_smile:</p>
+<p>Skeleton is easy way to create sliding <code>CAGradientLayer</code> animations! It works great for creating skeleton screens for loading content. I plan on expanding this library with functionality that allows easily converting a regular <code>UITableViewCell</code> or <code>UICollectionViewCell</code> to it&rsquo;s skeleton screen equivalent, hence the name Skeleton. I just haven&rsquo;t figured out exactly how I want to do that yet!</p>
+<h2 id='usage' class='heading'>👩‍💻 Usage</h2>
 
-<hr>
-<h2 id='overview' class='heading'>Overview</h2>
-
-<p>In essence, the entire library comes down to just one extension:</p>
+<p>The entire library comes down to just one public-facing extension:</p>
 <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">CAGradientLayer</span> <span class="p">{</span>
-  <span class="kd">public</span> <span class="kd">func</span> <span class="nf">slide</span><span class="p">(</span><span class="n">to</span> <span class="nv">dir</span><span class="p">:</span> <span class="kt">Direction</span><span class="p">,</span> <span class="nv">group</span><span class="p">:</span> <span class="p">((</span><span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span> <span class="nv">$0</span> <span class="p">})</span>
+  <span class="kd">public</span> <span class="kd">func</span> <span class="nf">slide</span><span class="p">(</span><span class="n">to</span> <span class="nv">dir</span><span class="p">:</span> <span class="kt">Direction</span><span class="p">,</span> <span class="nv">group</span><span class="p">:</span> <span class="p">((</span><span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span> <span class="n">_</span> <span class="k">in</span> <span class="p">})</span>
   <span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopSliding</span><span class="p">()</span>
 <span class="p">}</span>
 </code></pre>
 
-<p>Everything else is there to help you out and provide convenience! You can check out the <a href="http://www.gonzalonunez.me/Skeleton/">documentation</a> for more.</p>
-<h2 id='example' class='heading'>Example</h2>
+<p>With a bit of set up, you can get something like this:</p>
+
+<p><img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/></p>
+
+<p>You can check out the example and the <a href="http://www.gonzalonunez.me/Skeleton/">documentation</a> for more.</p>
+<h2 id='example' class='heading'>📚 Example</h2>
 
 <p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
-<h2 id='installation' class='heading'>Installation</h2>
+<h2 id='installation' class='heading'>🛠 Installation</h2>
 
 <p>Skeleton is available through <a href="http://cocoapods.org">CocoaPods</a>. To install it, simply add the following line to your Podfile:</p>
 <pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"Skeleton"</span>
 </code></pre>
 
 <p>Skeleton is also available through <a href="https://github.com/Carthage/Carthage">Carthage</a>. Add this to your Cartfile:</p>
-<pre class="highlight plaintext"><code>github "gonzalonunez/Skeleton" ~&gt; 0.1.2
+<pre class="highlight plaintext"><code>github "gonzalonunez/Skeleton" ~&gt; 0.2.1
 </code></pre>
-
-<p><strong>Note:</strong> If you&rsquo;d like to use the Swift 3 version instead of the Swift 4 version (there were no changes to the code), you can use version <code>0.1.1</code> or <code>0.1.0</code>. See the change log for more.</p>
-<h2 id='author' class='heading'>Author</h2>
-
-<p>Gonzalo Nuñez, <a href="mailto:hello@gonzalonunez.me">hello@gonzalonunez.me</a></p>
-<h2 id='license' class='heading'>License</h2>
+<h2 id='license' class='heading'>📄 License</h2>
 
 <p>Skeleton is available under the MIT license. See the LICENSE file for more info.</p>
 
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/gonzalonunez/Skeleton" target="_blank" rel="external">Gonzalo Nuñez</a>. All rights reserved. (Last updated: 2018-01-26)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/gonzalonunez/Skeleton" target="_blank" rel="external">Gonzalo Nuñez</a>. All rights reserved. (Last updated: 2018-01-30)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

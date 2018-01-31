@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Skeleton  Reference</title>
+    <title>Structures  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,7 +10,7 @@
     
   </head>
   <body>
-    <a title="Skeleton  Reference"></a>
+    <a title="Structures  Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="index.html">Skeleton Docs</a> (75% documented)</p>
@@ -20,7 +20,7 @@
       <p id="breadcrumbs">
         <a href="index.html">Skeleton Reference</a>
         <img id="carat" src="img/carat.png" />
-        Skeleton  Reference
+        Structures  Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -86,54 +86,75 @@
       <article class="main-content">
         <section>
           <section class="section">
-            
-            <p align="center">
-    <img src="logo.png" width="300" max-width="50%" alt="Skeleton" />
-</p>
+            <h1>Structures</h1>
+            <p>The following structures are available globally.</p>
 
-<p align="center">
-    <a href="http://www.gonzalonunez.me/Skeleton/">
-        <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat" />
-    </a>
-    <a href="https://cocoapods.org/pods/Skeleton">
-        <img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat" />
-    </a>
-    <a href="https://github.com/Carthage/Carthage">
-        <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
-    </a>
-</p>
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Skeleton13GradientPointV"></a>
+                    <a name="//apple_ref/swift/Struct/GradientPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Skeleton13GradientPointV">GradientPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents a valid point for a CAGradientLayer&rsquo;s <code>startPoint</code> or <code>endPoint</code> when beginning or ending a slide.</p>
 
-<p>Skeleton is easy way to create sliding <code>CAGradientLayer</code> animations! It works great for creating skeleton screens for loading content. I plan on expanding this library with functionality that allows easily converting a regular <code>UITableViewCell</code> or <code>UICollectionViewCell</code> to it&rsquo;s skeleton screen equivalent, hence the name Skeleton. I just haven&rsquo;t figured out exactly how I want to do that yet!</p>
-<h2 id='usage' class='heading'>👩‍💻 Usage</h2>
+                        <a href="Structs/GradientPoint.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">GradientPoint</span></code></pre>
 
-<p>The entire library comes down to just one public-facing extension:</p>
-<pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">CAGradientLayer</span> <span class="p">{</span>
-  <span class="kd">public</span> <span class="kd">func</span> <span class="nf">slide</span><span class="p">(</span><span class="n">to</span> <span class="nv">dir</span><span class="p">:</span> <span class="kt">Direction</span><span class="p">,</span> <span class="nv">group</span><span class="p">:</span> <span class="p">((</span><span class="kt">CAAnimationGroup</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span> <span class="n">_</span> <span class="k">in</span> <span class="p">})</span>
-  <span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopSliding</span><span class="p">()</span>
-<span class="p">}</span>
-</code></pre>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8Skeleton18GradientTransitionV"></a>
+                    <a name="//apple_ref/swift/Struct/GradientTransition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8Skeleton18GradientTransitionV">GradientTransition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A struct representing a transition between two <code><a href="Structs/GradientPoint.html">GradientPoint</a></code>s.</p>
 
-<p>With a bit of set up, you can get something like this:</p>
+                        <a href="Structs/GradientTransition.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">GradientTransition</span></code></pre>
 
-<p><img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/></p>
-
-<p>You can check out the example and the <a href="http://www.gonzalonunez.me/Skeleton/">documentation</a> for more.</p>
-<h2 id='example' class='heading'>📚 Example</h2>
-
-<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
-<h2 id='installation' class='heading'>🛠 Installation</h2>
-
-<p>Skeleton is available through <a href="http://cocoapods.org">CocoaPods</a>. To install it, simply add the following line to your Podfile:</p>
-<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"Skeleton"</span>
-</code></pre>
-
-<p>Skeleton is also available through <a href="https://github.com/Carthage/Carthage">Carthage</a>. Add this to your Cartfile:</p>
-<pre class="highlight plaintext"><code>github "gonzalonunez/Skeleton" ~&gt; 0.2.1
-</code></pre>
-<h2 id='license' class='heading'>📄 License</h2>
-
-<p>Skeleton is available under the MIT license. See the LICENSE file for more info.</p>
-
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
         </section>
         <section id="footer">
