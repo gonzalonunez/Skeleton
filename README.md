@@ -15,7 +15,9 @@
     </a>
 </p>
 
-Skeleton is easy way to create sliding `CAGradientLayer` animations! It works great for creating skeleton screens for loading content. I plan on expanding this library with functionality that allows easily converting a regular `UITableViewCell` or `UICollectionViewCell` to it's skeleton screen equivalent, hence the name Skeleton. I just haven't figured out exactly how I want to do that yet!
+Skeleton is easy way to create sliding `CAGradientLayer` animations! It works great for creating skeleton screens:
+
+<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
 
 ## 👩‍💻 Usage
 
@@ -27,10 +29,6 @@ public extension CAGradientLayer {
   public func stopSliding()
 }
 ```
-
-With a bit of set up, you can get something like this:
-
-<img src="https://github.com/gonzalonunez/Skeleton/blob/master/Resources/skeleton-logo-animation.gif" width=261/>
 
 You can check out the example and the [documentation](http://www.gonzalonunez.me/Skeleton/) for more.
 
