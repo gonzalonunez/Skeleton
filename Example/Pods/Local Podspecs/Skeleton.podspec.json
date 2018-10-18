@@ -1,8 +1,8 @@
 {
   "name": "Skeleton",
-  "version": "0.1.0",
-  "summary": "A short description of Skeleton.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.2",
+  "summary": "Skeleton is an easy way to create sliding CAGradientLayer animations!",
+  "description": "Skeleton is an easy way to create sliding CAGradientLayer animations! Works great for creating skeleton screens for loading content.",
   "homepage": "https://github.com/gonzalonunez/Skeleton",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/gonzalonunez/Skeleton.git",
-    "tag": "0.1.0"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "9.0"
