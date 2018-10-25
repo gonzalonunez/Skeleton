@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D27AC1E40C7FA2F659C02811111F8F1 /* Pods-Skeleton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEE2A2994937B09AFD34A1F36CE1FA2 /* Pods-Skeleton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40E81071EB58464C485A8496B5D9A8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		445993519061C328CD4B0CC4964982CE /* Pods-Skeleton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5041DB882C7B36E18C93B8DCB966C9D /* Pods-Skeleton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F095A64C31F8DAF2EF11F3C066529F0 /* GradientsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0095AEA73A21B270B4D538A4A5C5566 /* GradientsOwner.swift */; };
-		51B4AF58DE8FB74F9E5A9E52DD380637 /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A514C3CD26BEE4783B4AF3E74066046 /* GradientPoint.swift */; };
-		6630BCF02B86085DCB8ADE44AB66929C /* GradientTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE55539A187909D0649AA4AC19E451 /* GradientTransition.swift */; };
-		679208298B8B9E8DB61E683432165B00 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2AC2BE31F713587DCDD347398B6BDE /* Direction.swift */; };
-		95E64F6C840A39A9AC6D182020984D10 /* Skeleton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A391E9C28F239031700DCAEEE229CEAA /* Skeleton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8DA6A6051E8637866C3CAF5E0EB4289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		AB3E9D6C1E56731A00071992 /* GradientContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E9D6A1E5672CE00071992 /* GradientContainerView.swift */; };
-		B6ABB6BD10C2214953F65A3ECE7CA442 /* Skeleton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F384730691A7872DB4993F314ED056D /* Skeleton-dummy.m */; };
-		C4D154B0EBC630F57E122D42750D3C8D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B25868001233E382C67F2FD289C5227 /* GradientView.swift */; };
-		CE3291893C5380DB1727E61D9CEB3BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EA4DF7587306347309AFEC785AA3DA21 /* Pods-Skeleton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A4D90A34F6B9E3C6C1CA9AA848274 /* Pods-Skeleton_Example-dummy.m */; };
-		F77FBAD1E31EC20B2A693D441FA9F48F /* Pods-Skeleton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216885FB49C9D0B680E55A0BBA87BE0 /* Pods-Skeleton_Tests-dummy.m */; };
-		FDB1210602F81F1451CB5FEC4CD1893C /* CAGradientLayer+Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29EC62F738EB115C20B07A299D547D6 /* CAGradientLayer+Slide.swift */; };
+		062D6FD7CC69805A01900AE3A8C924E5 /* Pods-Skeleton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D38D6F11AEB4D235D0F8971DF4D675 /* Pods-Skeleton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A2692D093BAE9052E72FECAC6D752D /* GradientPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF7C533BE4612BEBC1EB5AA96A4815 /* GradientPoint.swift */; };
+		2D27AC1E40C7FA2F659C02811111F8F1 /* Pods-Skeleton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F15F442FCDAA138F59F75FD327F9BD1 /* Pods-Skeleton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F36495BDBE67E40CC242CF58B6F3940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		56F1A74903E125B7F65687FA1DD7C92F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5E40409A66CCBE4705E98DB1CA95A3FD /* GradientContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F1512D1188C225A43D9CA36A6D7C61 /* GradientContainerView.swift */; };
+		7F3706A204A459471BF020316C30E05D /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B919CE4BDEA6DB51CAAFB9DE2DDA88 /* Direction.swift */; };
+		95E64F6C840A39A9AC6D182020984D10 /* Skeleton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFD4B5EE4E5E99B2F4C43AC459BB641 /* Skeleton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		970150C60206B31F6859ABDDF74F5F97 /* CAGradientLayer+Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880078ABA9F952CFA8B2DEC113EAF60 /* CAGradientLayer+Slide.swift */; };
+		AD1AB27651CAECF14CBB84F04536E638 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113756F0A412B3B5F60F471AAE9C83B0 /* GradientView.swift */; };
+		DDD161B68298A9D5E23EBE0F29C41DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E2727C24C1C2BAD2A2402D31890511C8 /* Pods-Skeleton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC33A01AD12BBB83C30D83EDDE7ADA /* Pods-Skeleton_Tests-dummy.m */; };
+		E363C5F72E38AACE32A45D16D5EE85CB /* Skeleton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1F8B5C179A8813B9A0BC52A511C1A /* Skeleton-dummy.m */; };
+		E699040447990992E31C92C631C9169F /* GradientTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E302A41FFBC23D3F1FF4B9D16D8C8 /* GradientTransition.swift */; };
+		EA4DF7587306347309AFEC785AA3DA21 /* Pods-Skeleton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EDABE133B26169E2D1678A3833D5C0 /* Pods-Skeleton_Example-dummy.m */; };
+		F4C7D48B38E81B6405E0DA1494ADA039 /* GradientsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE32923DF0F5690218B68115D611ED2 /* GradientsOwner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,63 +33,126 @@
 			remoteGlobalIDString = 65E843D38741D9F7D871F77C600C20E9;
 			remoteInfo = Skeleton;
 		};
+		49D66C454C7C2A9C2792685F5E337383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECE0FA14E1E577E0C062F1F41A3E168;
+			remoteInfo = "Pods-Skeleton_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B25868001233E382C67F2FD289C5227 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		0FFE55539A187909D0649AA4AC19E451 /* GradientTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientTransition.swift; sourceTree = "<group>"; };
-		1216885FB49C9D0B680E55A0BBA87BE0 /* Pods-Skeleton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skeleton_Tests-dummy.m"; sourceTree = "<group>"; };
-		1D4044163064B080CE478914F1D675FA /* Pods-Skeleton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1DE8C1AFC26B324CE72979968109AE35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E77F905B6922D959B8A87C94D929B78 /* Pods-Skeleton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Skeleton_Example.modulemap"; sourceTree = "<group>"; };
-		27A024B7F8287756DB9DF1570EB0F52A /* Pods-Skeleton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3B5A4D90A34F6B9E3C6C1CA9AA848274 /* Pods-Skeleton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skeleton_Example-dummy.m"; sourceTree = "<group>"; };
-		4668C68A8EF44DA310A70B1EF7D33868 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006046CAEED14FEBAD6BCE03F6B14C0F /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Extensions.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
+		02E4EECFA3509702CDCD5F99F4529C19 /* CABasicAnimation.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = CABasicAnimation.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Extensions/CABasicAnimation.html; sourceTree = "<group>"; };
+		04D0834C6E0CCE61DBEFD8AC5C44ABAD /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Classes.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		07C0B881344AA9D7552ACF5B826A4E3A /* Location.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Location.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Structs/GradientPoint/Location.html; sourceTree = "<group>"; };
+		0BFD4B5EE4E5E99B2F4C43AC459BB641 /* Skeleton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-umbrella.h"; sourceTree = "<group>"; };
+		0ECD503E8921C64DFA4045E31D16E6BA /* Pods-Skeleton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		113756F0A412B3B5F60F471AAE9C83B0 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Skeleton/GradientView.swift; sourceTree = "<group>"; };
+		137A5DD012727F264771A1E17E3A6E55 /* Pods-Skeleton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skeleton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		137B7B86EAA93ACA2D7852681C85E280 /* Direction.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Direction.html; path = docs/Enums/Direction.html; sourceTree = "<group>"; };
+		15B919CE4BDEA6DB51CAAFB9DE2DDA88 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = Skeleton/Direction.swift; sourceTree = "<group>"; };
+		16D0098982E7777EE58FB985BAC28ACE /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		171793814B977525D43EF50EA51612C6 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		17BF78AF114B40D99DA7B27700C4F99A /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		1BD1AD7949033B3A34D6AFC7FB9F345C /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		21337B9812E1522D0EF1CE9010DF917C /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		2326EEB8DA19CAAD4057B11FC382442B /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Structs.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
+		244915504F73E8161E1E990E262629C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257ECF10FAEA30EF7869CC377BABFCEB /* Pods-Skeleton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1C6E8476F142D50292D936AB88A915 /* Pods-Skeleton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skeleton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		30DEC8A85BCA552E1C8AC61763A0C09C /* Pods-Skeleton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		347C3C36F9CA3739E3896D6FC174B018 /* Skeleton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Skeleton.modulemap; sourceTree = "<group>"; };
+		3B8E9B52D4FADF4EFE44411E97167795 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		490F7BE508EBEA2FA244E0FC118B43CD /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
 		49B5FA02504BB268101D6A93414D18CF /* Pods_Skeleton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skeleton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A514C3CD26BEE4783B4AF3E74066046 /* GradientPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientPoint.swift; sourceTree = "<group>"; };
-		6D2AC2BE31F713587DCDD347398B6BDE /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
-		6E810A9B10EFC8BC548D2713CDF8751B /* Pods-Skeleton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		74C8EC18E318BCC5833960CE0ADD7C9C /* Pods-Skeleton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Tests-resources.sh"; sourceTree = "<group>"; };
-		8710D75245569511C5A67402ADDC96AD /* Pods-Skeleton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A709135E84E4B0B6514BF09DA2C20AA /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		4CA7A2C0EF813B52E790F1680E969A00 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		5096C395E5FB4C3C7F8FD13B26F84BD1 /* Skeleton.tgz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Skeleton.tgz; path = docs/docsets/Skeleton.tgz; sourceTree = "<group>"; };
+		545E8DAA025541FFFB681410C0A94F3E /* GradientProperty.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = GradientProperty.html; path = docs/Enums/GradientProperty.html; sourceTree = "<group>"; };
+		54C1F8B5C179A8813B9A0BC52A511C1A /* Skeleton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skeleton-dummy.m"; sourceTree = "<group>"; };
+		5574BDAE695DA4DB9613EA21DFD7B9A3 /* GradientView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = GradientView.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Classes/GradientView.html; sourceTree = "<group>"; };
+		5880078ABA9F952CFA8B2DEC113EAF60 /* CAGradientLayer+Slide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAGradientLayer+Slide.swift"; path = "Skeleton/CAGradientLayer+Slide.swift"; sourceTree = "<group>"; };
+		596B4D22989919F5F330101001E5B7AE /* CAGradientLayer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = CAGradientLayer.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Extensions/CAGradientLayer.html; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A9B8A05B0432E7814C4D43FEE983408 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		5C58E3F57D865CF3DA06FC74434F3DF4 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		5E68722E3C34C8C2FDD85CD20ACB596D /* Skeleton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Skeleton.xcconfig; sourceTree = "<group>"; };
+		5F15F442FCDAA138F59F75FD327F9BD1 /* Pods-Skeleton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skeleton_Example-umbrella.h"; sourceTree = "<group>"; };
+		5FE32923DF0F5690218B68115D611ED2 /* GradientsOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientsOwner.swift; path = Skeleton/GradientsOwner.swift; sourceTree = "<group>"; };
+		607E9311C308E790986E311A9073C027 /* Location.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Location.html; path = docs/Structs/GradientPoint/Location.html; sourceTree = "<group>"; };
+		6344332ADB95C5318B8E989E8D149FD2 /* GradientPoint.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = GradientPoint.html; path = docs/Structs/GradientPoint.html; sourceTree = "<group>"; };
+		66D38D6F11AEB4D235D0F8971DF4D675 /* Pods-Skeleton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skeleton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		68760F6FF42D663D7E9B22DC9DD27A1C /* Pods-Skeleton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skeleton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		688E2674B01C3200774601B094C06505 /* Pods-Skeleton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Example-resources.sh"; sourceTree = "<group>"; };
+		6942AC758CAFF108A48F8C9760A000C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6ABF66244D3CCEC182F8E400C3D445CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8A608372BA67A83BE18383CDBD6105 /* GradientContainerView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = GradientContainerView.html; path = docs/Classes/GradientContainerView.html; sourceTree = "<group>"; };
+		7B6011DF02535E307FC1F62B07533D73 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Enums.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		7D2DE80CD0C238F6E61363183DDC7808 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/Skeleton.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		7E381ED889324BBA92CBAEFAFDC85392 /* CABasicAnimation.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = CABasicAnimation.html; path = docs/Extensions/CABasicAnimation.html; sourceTree = "<group>"; };
+		7FC59631CCD38AE24D5E3520535B682B /* GradientPoint.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = GradientPoint.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Structs/GradientPoint.html; sourceTree = "<group>"; };
+		813CDC0E77C09B67640D88375F524125 /* GradientContainerView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = GradientContainerView.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Classes/GradientContainerView.html; sourceTree = "<group>"; };
+		82D14C289001B828854C376D4BE68D69 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		83CF1789D06E9860686258B0E36D1BC1 /* GradientsOwner.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = GradientsOwner.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Protocols/GradientsOwner.html; sourceTree = "<group>"; };
+		91CF4053A49FCE9D027B34549EEB00D6 /* GradientView.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = GradientView.html; path = docs/Classes/GradientView.html; sourceTree = "<group>"; };
+		925EFA38F28767025F91F03D0C9A61CB /* Pods-Skeleton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Skeleton_Example.modulemap"; sourceTree = "<group>"; };
+		92EB71CBEE20E8B4D577382B9FF50A07 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = index.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		969234BE169F52C785933482A855A0DF /* Pods-Skeleton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9BD68AE3D8DC09FAB3D19F2E486547FD /* Skeleton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Skeleton.modulemap; sourceTree = "<group>"; };
-		9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Skeleton.xcconfig; sourceTree = "<group>"; };
-		9D13DD2CBA2ACBF2B5E098A772387835 /* Pods-Skeleton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skeleton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9EEE2A2994937B09AFD34A1F36CE1FA2 /* Pods-Skeleton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skeleton_Example-umbrella.h"; sourceTree = "<group>"; };
-		9F384730691A7872DB4993F314ED056D /* Skeleton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Skeleton-dummy.m"; sourceTree = "<group>"; };
-		A29EC62F738EB115C20B07A299D547D6 /* CAGradientLayer+Slide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Slide.swift"; sourceTree = "<group>"; };
-		A391E9C28F239031700DCAEEE229CEAA /* Skeleton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-umbrella.h"; sourceTree = "<group>"; };
-		AB3E9D6A1E5672CE00071992 /* GradientContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientContainerView.swift; sourceTree = "<group>"; };
-		B176B452097CEDD885860FC28DB0FEE6 /* Pods-Skeleton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skeleton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C5041DB882C7B36E18C93B8DCB966C9D /* Pods-Skeleton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skeleton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0095AEA73A21B270B4D538A4A5C5566 /* GradientsOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientsOwner.swift; sourceTree = "<group>"; };
-		D271F1CF6A70785CCE03B06BC2E93289 /* Pods-Skeleton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Skeleton_Tests.modulemap"; sourceTree = "<group>"; };
+		93A5435B3DDC4EAC4A37A937B0FEBEE6 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		93EDABE133B26169E2D1678A3833D5C0 /* Pods-Skeleton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skeleton_Example-dummy.m"; sourceTree = "<group>"; };
+		9CC5A23F5E1ABC66F651F518410CB981 /* Pods-Skeleton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9F85E322081CB98AE3AF11832652AFA9 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		A4BF4ADE139918844FAAB9F51A128D18 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		A5B045CD0D400D4D31CD8E868809810D /* Pods-Skeleton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Skeleton_Tests.modulemap"; sourceTree = "<group>"; };
+		A5BB013D35179750865242A712DF4B20 /* Pods-Skeleton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Tests-resources.sh"; sourceTree = "<group>"; };
+		AA416E03213DCF435B76AA3FBB0716C4 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		AA6E302A41FFBC23D3F1FF4B9D16D8C8 /* GradientTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientTransition.swift; path = Skeleton/GradientTransition.swift; sourceTree = "<group>"; };
+		ACA5D051C4C3B4B5A33E1856792D26F6 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		AD4EE22BB2B49B89DAA13749E4720AC2 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		AFA73A94A9DA2C632F2F86025FE830E3 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = docSet.dsidx; path = docs/docsets/Skeleton.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		B27025B96B61156116F22BE452B62EE8 /* Skeleton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Skeleton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A7EA80344ECE4FBDAE550EF22D98AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D0991100C0EA13646727EB6E980695 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
+		B5E6E06DC7478A7AFD92C6D485F357B3 /* Skeleton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-prefix.pch"; sourceTree = "<group>"; };
+		B7CD8AF54E73B30C280A72C3A6A354A9 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		BD5FA7EAA806A30226BE1713370E8788 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Protocols.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		C08BD8762FA52E471A67FC178979CDBB /* GradientProperty.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = GradientProperty.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Enums/GradientProperty.html; sourceTree = "<group>"; };
+		C20C5ED5B4724AB9E195D3E415FB1FFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C3FDF4CB06AD5A72E814C10D5DA3064E /* GradientTransition.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = GradientTransition.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Structs/GradientTransition.html; sourceTree = "<group>"; };
+		C6634EB8500D39247F6C9DFCD4B5B9F5 /* CAGradientLayer.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = CAGradientLayer.html; path = docs/Extensions/CAGradientLayer.html; sourceTree = "<group>"; };
+		CA4F8EE39CA6683367025CE94D5DD0EC /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
+		CC7793948F5DFD0B4979DEE66A712EDA /* GradientsOwner.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = GradientsOwner.html; path = docs/Protocols/GradientsOwner.html; sourceTree = "<group>"; };
+		CF0319DD8F13F8692BB5A2DB27B9B85D /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
 		DDFB8D5A45B020B4D42A445511B3AEA7 /* Skeleton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Skeleton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF56904079D06B6C38CD6AAB51D59DE1 /* Pods_Skeleton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skeleton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0675B37345C8A8B6DF20BC793A790F7 /* Pods-Skeleton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skeleton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3F903E9F74BCDB2FBDFC7F7B5707010 /* Skeleton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Skeleton-prefix.pch"; sourceTree = "<group>"; };
-		F5D60BEF9CBB54AAAAB5531E0F0D9EFB /* Pods-Skeleton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F9F7CBD2F5DC89DDE6DBB1878E9DA570 /* Pods-Skeleton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skeleton_Example-resources.sh"; sourceTree = "<group>"; };
-		FE7BB19BC1952C38D30D32947E048AB2 /* Pods-Skeleton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skeleton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF5CCC5ADC8A2A2940891FA9C0500EED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEF7C533BE4612BEBC1EB5AA96A4815 /* GradientPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientPoint.swift; path = Skeleton/GradientPoint.swift; sourceTree = "<group>"; };
+		DFF15004B958D4758DDFEF48966E189D /* Pods-Skeleton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E305E4E39BA9B4FD9E575B305A409017 /* Direction.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Direction.html; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/Enums/Direction.html; sourceTree = "<group>"; };
+		E34A5C5F4778D9B8A65F04B9B43B1302 /* GradientTransition.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = GradientTransition.html; path = docs/Structs/GradientTransition.html; sourceTree = "<group>"; };
+		E4F1512D1188C225A43D9CA36A6D7C61 /* GradientContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientContainerView.swift; path = Skeleton/GradientContainerView.swift; sourceTree = "<group>"; };
+		E95468FA4130FE77C3B9E1BA92840200 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/Skeleton.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
+		EFFC33A01AD12BBB83C30D83EDDE7ADA /* Pods-Skeleton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skeleton_Tests-dummy.m"; sourceTree = "<group>"; };
+		F15F0A071C298A0376D5B671F11E1857 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		F8B7947C72590258E271B7BF192D81C2 /* Pods-Skeleton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skeleton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9495B19BC57211A4A13FF373BDA79D /* Pods-Skeleton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skeleton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		185DCFB7B5CC5AC3FC616DEC799EE62E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40E81071EB58464C485A8496B5D9A8F0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		420D5E1CD8B94FAEBAFE5870FFC63DB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3291893C5380DB1727E61D9CEB3BC8 /* Foundation.framework in Frameworks */,
+				56F1A74903E125B7F65687FA1DD7C92F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52E39BDDAA2C089E1E3018A2CB35747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F36495BDBE67E40CC242CF58B6F3940 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,105 +160,185 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DA6A6051E8637866C3CAF5E0EB4289 /* Foundation.framework in Frameworks */,
+				DDD161B68298A9D5E23EBE0F29C41DC1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24F05E47AD9437F680E5322700D5B639 /* Development Pods */ = {
+		04D4A4D63D07628A77266378DA5FD492 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FEAEBA3E818343B80372B0FBDE2663B2 /* Skeleton */,
+				3B8E9B52D4FADF4EFE44411E97167795 /* badge.svg */,
+				02E4EECFA3509702CDCD5F99F4529C19 /* CABasicAnimation.html */,
+				7E381ED889324BBA92CBAEFAFDC85392 /* CABasicAnimation.html */,
+				596B4D22989919F5F330101001E5B7AE /* CAGradientLayer.html */,
+				C6634EB8500D39247F6C9DFCD4B5B9F5 /* CAGradientLayer.html */,
+				17BF78AF114B40D99DA7B27700C4F99A /* carat.png */,
+				B4D0991100C0EA13646727EB6E980695 /* carat.png */,
+				82D14C289001B828854C376D4BE68D69 /* Classes.html */,
+				04D0834C6E0CCE61DBEFD8AC5C44ABAD /* Classes.html */,
+				9F85E322081CB98AE3AF11832652AFA9 /* dash.png */,
+				F15F0A071C298A0376D5B671F11E1857 /* dash.png */,
+				E305E4E39BA9B4FD9E575B305A409017 /* Direction.html */,
+				137B7B86EAA93ACA2D7852681C85E280 /* Direction.html */,
+				AFA73A94A9DA2C632F2F86025FE830E3 /* docSet.dsidx */,
+				7B6011DF02535E307FC1F62B07533D73 /* Enums.html */,
+				ACA5D051C4C3B4B5A33E1856792D26F6 /* Enums.html */,
+				006046CAEED14FEBAD6BCE03F6B14C0F /* Extensions.html */,
+				A4BF4ADE139918844FAAB9F51A128D18 /* Extensions.html */,
+				AA416E03213DCF435B76AA3FBB0716C4 /* gh.png */,
+				E95468FA4130FE77C3B9E1BA92840200 /* gh.png */,
+				6D8A608372BA67A83BE18383CDBD6105 /* GradientContainerView.html */,
+				813CDC0E77C09B67640D88375F524125 /* GradientContainerView.html */,
+				6344332ADB95C5318B8E989E8D149FD2 /* GradientPoint.html */,
+				7FC59631CCD38AE24D5E3520535B682B /* GradientPoint.html */,
+				545E8DAA025541FFFB681410C0A94F3E /* GradientProperty.html */,
+				C08BD8762FA52E471A67FC178979CDBB /* GradientProperty.html */,
+				CC7793948F5DFD0B4979DEE66A712EDA /* GradientsOwner.html */,
+				83CF1789D06E9860686258B0E36D1BC1 /* GradientsOwner.html */,
+				C3FDF4CB06AD5A72E814C10D5DA3064E /* GradientTransition.html */,
+				E34A5C5F4778D9B8A65F04B9B43B1302 /* GradientTransition.html */,
+				91CF4053A49FCE9D027B34549EEB00D6 /* GradientView.html */,
+				5574BDAE695DA4DB9613EA21DFD7B9A3 /* GradientView.html */,
+				4CA7A2C0EF813B52E790F1680E969A00 /* highlight.css */,
+				93A5435B3DDC4EAC4A37A937B0FEBEE6 /* highlight.css */,
+				1BD1AD7949033B3A34D6AFC7FB9F345C /* index.html */,
+				92EB71CBEE20E8B4D577382B9FF50A07 /* index.html */,
+				7D2DE80CD0C238F6E61363183DDC7808 /* Info.plist */,
+				171793814B977525D43EF50EA51612C6 /* jazzy.css */,
+				490F7BE508EBEA2FA244E0FC118B43CD /* jazzy.css */,
+				5C58E3F57D865CF3DA06FC74434F3DF4 /* jazzy.js */,
+				B7CD8AF54E73B30C280A72C3A6A354A9 /* jazzy.js */,
+				4A709135E84E4B0B6514BF09DA2C20AA /* jquery.min.js */,
+				5A9B8A05B0432E7814C4D43FEE983408 /* jquery.min.js */,
+				C20C5ED5B4724AB9E195D3E415FB1FFB /* LICENSE */,
+				607E9311C308E790986E311A9073C027 /* Location.html */,
+				07C0B881344AA9D7552ACF5B826A4E3A /* Location.html */,
+				21337B9812E1522D0EF1CE9010DF917C /* Protocols.html */,
+				BD5FA7EAA806A30226BE1713370E8788 /* Protocols.html */,
+				6942AC758CAFF108A48F8C9760A000C3 /* README.md */,
+				AD4EE22BB2B49B89DAA13749E4720AC2 /* search.json */,
+				CF0319DD8F13F8692BB5A2DB27B9B85D /* search.json */,
+				B27025B96B61156116F22BE452B62EE8 /* Skeleton.podspec */,
+				5096C395E5FB4C3C7F8FD13B26F84BD1 /* Skeleton.tgz */,
+				CA4F8EE39CA6683367025CE94D5DD0EC /* Structs.html */,
+				2326EEB8DA19CAAD4057B11FC382442B /* Structs.html */,
+				16D0098982E7777EE58FB985BAC28ACE /* undocumented.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46A69ADA986891B5E23116DFBF351EBA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94B617369571A6F0132D7DD09BD9704D /* Skeleton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		46CEEB22FB9C2485415DF34227E0DEBA /* Pods-Skeleton_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				B3A7EA80344ECE4FBDAE550EF22D98AA /* Info.plist */,
+				925EFA38F28767025F91F03D0C9A61CB /* Pods-Skeleton_Example.modulemap */,
+				FA9495B19BC57211A4A13FF373BDA79D /* Pods-Skeleton_Example-acknowledgements.markdown */,
+				2F1C6E8476F142D50292D936AB88A915 /* Pods-Skeleton_Example-acknowledgements.plist */,
+				93EDABE133B26169E2D1678A3833D5C0 /* Pods-Skeleton_Example-dummy.m */,
+				0ECD503E8921C64DFA4045E31D16E6BA /* Pods-Skeleton_Example-frameworks.sh */,
+				688E2674B01C3200774601B094C06505 /* Pods-Skeleton_Example-resources.sh */,
+				5F15F442FCDAA138F59F75FD327F9BD1 /* Pods-Skeleton_Example-umbrella.h */,
+				257ECF10FAEA30EF7869CC377BABFCEB /* Pods-Skeleton_Example.debug.xcconfig */,
+				DFF15004B958D4758DDFEF48966E189D /* Pods-Skeleton_Example.release.xcconfig */,
+			);
+			name = "Pods-Skeleton_Example";
+			path = "Target Support Files/Pods-Skeleton_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C919F18CE4A308A833AABC13C77AC51 /* Pods-Skeleton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				244915504F73E8161E1E990E262629C2 /* Info.plist */,
+				A5B045CD0D400D4D31CD8E868809810D /* Pods-Skeleton_Tests.modulemap */,
+				137A5DD012727F264771A1E17E3A6E55 /* Pods-Skeleton_Tests-acknowledgements.markdown */,
+				68760F6FF42D663D7E9B22DC9DD27A1C /* Pods-Skeleton_Tests-acknowledgements.plist */,
+				EFFC33A01AD12BBB83C30D83EDDE7ADA /* Pods-Skeleton_Tests-dummy.m */,
+				9CC5A23F5E1ABC66F651F518410CB981 /* Pods-Skeleton_Tests-frameworks.sh */,
+				A5BB013D35179750865242A712DF4B20 /* Pods-Skeleton_Tests-resources.sh */,
+				66D38D6F11AEB4D235D0F8971DF4D675 /* Pods-Skeleton_Tests-umbrella.h */,
+				F8B7947C72590258E271B7BF192D81C2 /* Pods-Skeleton_Tests.debug.xcconfig */,
+				30DEC8A85BCA552E1C8AC61763A0C09C /* Pods-Skeleton_Tests.release.xcconfig */,
+			);
+			name = "Pods-Skeleton_Tests";
+			path = "Target Support Files/Pods-Skeleton_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				24F05E47AD9437F680E5322700D5B639 /* Development Pods */,
+				46A69ADA986891B5E23116DFBF351EBA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D32A890A975A1EFE252CC02069B77451 /* Products */,
 				91D2979062DD6060ADE898051BFA505C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+		7E01C362A942F9BD559B8A22BB0B7009 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF66244D3CCEC182F8E400C3D445CB /* Info.plist */,
+				347C3C36F9CA3739E3896D6FC174B018 /* Skeleton.modulemap */,
+				5E68722E3C34C8C2FDD85CD20ACB596D /* Skeleton.xcconfig */,
+				54C1F8B5C179A8813B9A0BC52A511C1A /* Skeleton-dummy.m */,
+				B5E6E06DC7478A7AFD92C6D485F357B3 /* Skeleton-prefix.pch */,
+				0BFD4B5EE4E5E99B2F4C43AC459BB641 /* Skeleton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Skeleton";
+			sourceTree = "<group>";
+		};
 		91D2979062DD6060ADE898051BFA505C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB719CAFDA8C42BF8FFFCD2AA7FE146E /* Pods-Skeleton_Example */,
-				B5AA9AD3BFCD7A4E1A3352B3F212BCED /* Pods-Skeleton_Tests */,
+				46CEEB22FB9C2485415DF34227E0DEBA /* Pods-Skeleton_Example */,
+				6C919F18CE4A308A833AABC13C77AC51 /* Pods-Skeleton_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B5AA9AD3BFCD7A4E1A3352B3F212BCED /* Pods-Skeleton_Tests */ = {
+		94B617369571A6F0132D7DD09BD9704D /* Skeleton */ = {
 			isa = PBXGroup;
 			children = (
-				1DE8C1AFC26B324CE72979968109AE35 /* Info.plist */,
-				D271F1CF6A70785CCE03B06BC2E93289 /* Pods-Skeleton_Tests.modulemap */,
-				FE7BB19BC1952C38D30D32947E048AB2 /* Pods-Skeleton_Tests-acknowledgements.markdown */,
-				9D13DD2CBA2ACBF2B5E098A772387835 /* Pods-Skeleton_Tests-acknowledgements.plist */,
-				1216885FB49C9D0B680E55A0BBA87BE0 /* Pods-Skeleton_Tests-dummy.m */,
-				6E810A9B10EFC8BC548D2713CDF8751B /* Pods-Skeleton_Tests-frameworks.sh */,
-				74C8EC18E318BCC5833960CE0ADD7C9C /* Pods-Skeleton_Tests-resources.sh */,
-				C5041DB882C7B36E18C93B8DCB966C9D /* Pods-Skeleton_Tests-umbrella.h */,
-				8710D75245569511C5A67402ADDC96AD /* Pods-Skeleton_Tests.debug.xcconfig */,
-				1D4044163064B080CE478914F1D675FA /* Pods-Skeleton_Tests.release.xcconfig */,
+				5880078ABA9F952CFA8B2DEC113EAF60 /* CAGradientLayer+Slide.swift */,
+				15B919CE4BDEA6DB51CAAFB9DE2DDA88 /* Direction.swift */,
+				E4F1512D1188C225A43D9CA36A6D7C61 /* GradientContainerView.swift */,
+				DFEF7C533BE4612BEBC1EB5AA96A4815 /* GradientPoint.swift */,
+				5FE32923DF0F5690218B68115D611ED2 /* GradientsOwner.swift */,
+				AA6E302A41FFBC23D3F1FF4B9D16D8C8 /* GradientTransition.swift */,
+				113756F0A412B3B5F60F471AAE9C83B0 /* GradientView.swift */,
+				04D4A4D63D07628A77266378DA5FD492 /* Pod */,
+				7E01C362A942F9BD559B8A22BB0B7009 /* Support Files */,
 			);
-			name = "Pods-Skeleton_Tests";
-			path = "Target Support Files/Pods-Skeleton_Tests";
-			sourceTree = "<group>";
-		};
-		BBA8A2633ED35896DA42B12FFE0C6E8F /* Skeleton */ = {
-			isa = PBXGroup;
-			children = (
-				A29EC62F738EB115C20B07A299D547D6 /* CAGradientLayer+Slide.swift */,
-				6D2AC2BE31F713587DCDD347398B6BDE /* Direction.swift */,
-				0FFE55539A187909D0649AA4AC19E451 /* GradientTransition.swift */,
-				4A514C3CD26BEE4783B4AF3E74066046 /* GradientPoint.swift */,
-				AB3E9D6A1E5672CE00071992 /* GradientContainerView.swift */,
-				0B25868001233E382C67F2FD289C5227 /* GradientView.swift */,
-				D0095AEA73A21B270B4D538A4A5C5566 /* GradientsOwner.swift */,
-			);
-			path = Skeleton;
+			name = Skeleton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB719CAFDA8C42BF8FFFCD2AA7FE146E /* Pods-Skeleton_Example */ = {
-			isa = PBXGroup;
-			children = (
-				FF5CCC5ADC8A2A2940891FA9C0500EED /* Info.plist */,
-				1E77F905B6922D959B8A87C94D929B78 /* Pods-Skeleton_Example.modulemap */,
-				E0675B37345C8A8B6DF20BC793A790F7 /* Pods-Skeleton_Example-acknowledgements.markdown */,
-				B176B452097CEDD885860FC28DB0FEE6 /* Pods-Skeleton_Example-acknowledgements.plist */,
-				3B5A4D90A34F6B9E3C6C1CA9AA848274 /* Pods-Skeleton_Example-dummy.m */,
-				27A024B7F8287756DB9DF1570EB0F52A /* Pods-Skeleton_Example-frameworks.sh */,
-				F9F7CBD2F5DC89DDE6DBB1878E9DA570 /* Pods-Skeleton_Example-resources.sh */,
-				9EEE2A2994937B09AFD34A1F36CE1FA2 /* Pods-Skeleton_Example-umbrella.h */,
-				969234BE169F52C785933482A855A0DF /* Pods-Skeleton_Example.debug.xcconfig */,
-				F5D60BEF9CBB54AAAAB5531E0F0D9EFB /* Pods-Skeleton_Example.release.xcconfig */,
-			);
-			name = "Pods-Skeleton_Example";
-			path = "Target Support Files/Pods-Skeleton_Example";
 			sourceTree = "<group>";
 		};
 		D32A890A975A1EFE252CC02069B77451 /* Products */ = {
@@ -208,41 +351,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7648E46266672D83A2693C8C0D408EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4668C68A8EF44DA310A70B1EF7D33868 /* Info.plist */,
-				9BD68AE3D8DC09FAB3D19F2E486547FD /* Skeleton.modulemap */,
-				9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */,
-				9F384730691A7872DB4993F314ED056D /* Skeleton-dummy.m */,
-				F3F903E9F74BCDB2FBDFC7F7B5707010 /* Skeleton-prefix.pch */,
-				A391E9C28F239031700DCAEEE229CEAA /* Skeleton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Skeleton";
-			sourceTree = "<group>";
-		};
-		FEAEBA3E818343B80372B0FBDE2663B2 /* Skeleton */ = {
-			isa = PBXGroup;
-			children = (
-				BBA8A2633ED35896DA42B12FFE0C6E8F /* Skeleton */,
-				D7648E46266672D83A2693C8C0D408EF /* Support Files */,
-			);
-			name = Skeleton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B52A362F82A9D7796BD57144FB94F00 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				445993519061C328CD4B0CC4964982CE /* Pods-Skeleton_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3C39F5EA7AD8D216D39E65FA08A8A162 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,26 +370,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5ED9483122264AB3AF0E6ABCC245964 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062D6FD7CC69805A01900AE3A8C924E5 /* Pods-Skeleton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		297AED59B1AE09415AB19457C8A1A37D /* Pods-Skeleton_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0869398AD2966392C395DADA13CDA2F9 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Tests" */;
-			buildPhases = (
-				93328814377200BB32B966E53B0D09C9 /* Sources */,
-				185DCFB7B5CC5AC3FC616DEC799EE62E /* Frameworks */,
-				0B52A362F82A9D7796BD57144FB94F00 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Skeleton_Tests";
-			productName = "Pods-Skeleton_Tests";
-			productReference = DF56904079D06B6C38CD6AAB51D59DE1 /* Pods_Skeleton_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5ECE0FA14E1E577E0C062F1F41A3E168 /* Pods-Skeleton_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E394E2FEA582E3DA295A0EDAC7713295 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Example" */;
@@ -301,7 +403,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12A19D459C4C6FA1AF14804FAE2230CA /* Build configuration list for PBXNativeTarget "Skeleton" */;
 			buildPhases = (
-				A7372D74DBAAD854AF9E7AA821400DFF /* Sources */,
+				19248F1E4D00280BCEE878EA147F55E1 /* Sources */,
 				420D5E1CD8B94FAEBAFE5870FFC63DB6 /* Frameworks */,
 				3C39F5EA7AD8D216D39E65FA08A8A162 /* Headers */,
 			);
@@ -314,22 +416,32 @@
 			productReference = DDFB8D5A45B020B4D42A445511B3AEA7 /* Skeleton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7991F50A577781AB0E5530BD4119342A /* Pods-Skeleton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCECF0AF4CACA1503DD12F1FBEF690A5 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Tests" */;
+			buildPhases = (
+				DB4FBEBB39BC47963C4028A01C0873F2 /* Sources */,
+				A52E39BDDAA2C089E1E3018A2CB35747 /* Frameworks */,
+				F5ED9483122264AB3AF0E6ABCC245964 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20539BB7AA3B901ED87FD296530C2B1B /* PBXTargetDependency */,
+			);
+			name = "Pods-Skeleton_Tests";
+			productName = "Pods-Skeleton_Tests";
+			productReference = DF56904079D06B6C38CD6AAB51D59DE1 /* Pods_Skeleton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0920;
-				TargetAttributes = {
-					5ECE0FA14E1E577E0C062F1F41A3E168 = {
-						LastSwiftMigration = 0820;
-					};
-					65E843D38741D9F7D871F77C600C20E9 = {
-						LastSwiftMigration = 0910;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -344,13 +456,28 @@
 			projectRoot = "";
 			targets = (
 				5ECE0FA14E1E577E0C062F1F41A3E168 /* Pods-Skeleton_Example */,
-				297AED59B1AE09415AB19457C8A1A37D /* Pods-Skeleton_Tests */,
+				7991F50A577781AB0E5530BD4119342A /* Pods-Skeleton_Tests */,
 				65E843D38741D9F7D871F77C600C20E9 /* Skeleton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19248F1E4D00280BCEE878EA147F55E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970150C60206B31F6859ABDDF74F5F97 /* CAGradientLayer+Slide.swift in Sources */,
+				7F3706A204A459471BF020316C30E05D /* Direction.swift in Sources */,
+				5E40409A66CCBE4705E98DB1CA95A3FD /* GradientContainerView.swift in Sources */,
+				07A2692D093BAE9052E72FECAC6D752D /* GradientPoint.swift in Sources */,
+				F4C7D48B38E81B6405E0DA1494ADA039 /* GradientsOwner.swift in Sources */,
+				E699040447990992E31C92C631C9169F /* GradientTransition.swift in Sources */,
+				AD1AB27651CAECF14CBB84F04536E638 /* GradientView.swift in Sources */,
+				E363C5F72E38AACE32A45D16D5EE85CB /* Skeleton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3190E10CCD6C064BF2166693BE56D148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,32 +486,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93328814377200BB32B966E53B0D09C9 /* Sources */ = {
+		DB4FBEBB39BC47963C4028A01C0873F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F77FBAD1E31EC20B2A693D441FA9F48F /* Pods-Skeleton_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7372D74DBAAD854AF9E7AA821400DFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDB1210602F81F1451CB5FEC4CD1893C /* CAGradientLayer+Slide.swift in Sources */,
-				679208298B8B9E8DB61E683432165B00 /* Direction.swift in Sources */,
-				AB3E9D6C1E56731A00071992 /* GradientContainerView.swift in Sources */,
-				51B4AF58DE8FB74F9E5A9E52DD380637 /* GradientPoint.swift in Sources */,
-				4F095A64C31F8DAF2EF11F3C066529F0 /* GradientsOwner.swift in Sources */,
-				6630BCF02B86085DCB8ADE44AB66929C /* GradientTransition.swift in Sources */,
-				C4D154B0EBC630F57E122D42750D3C8D /* GradientView.swift in Sources */,
-				B6ABB6BD10C2214953F65A3ECE7CA442 /* Skeleton-dummy.m in Sources */,
+				E2727C24C1C2BAD2A2402D31890511C8 /* Pods-Skeleton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20539BB7AA3B901ED87FD296530C2B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Skeleton_Example";
+			target = 5ECE0FA14E1E577E0C062F1F41A3E168 /* Pods-Skeleton_Example */;
+			targetProxy = 49D66C454C7C2A9C2792685F5E337383 /* PBXContainerItemProxy */;
+		};
 		68EE22EAA8F4E99C6F572523B1AA50F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Skeleton;
@@ -394,111 +512,45 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24A18CE08916346AABC7EB933FDB1A0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4044163064B080CE478914F1D675FA /* Pods-Skeleton_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Tests/Pods-Skeleton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Skeleton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3861F65693D0132E449AC24D148E7933 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 969234BE169F52C785933482A855A0DF /* Pods-Skeleton_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Example/Pods-Skeleton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Skeleton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -507,132 +559,79 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		7B09E216FAB47493672044C76F4D3379 /* Release */ = {
+		3361C29DA9645C3A26BB3C1DCA57AB4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */;
+			baseConfigurationReference = 5E68722E3C34C8C2FDD85CD20ACB596D /* Skeleton.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Skeleton/Skeleton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Skeleton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Skeleton/Skeleton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = Skeleton;
 				PRODUCT_NAME = Skeleton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+		55B3F0F211B458A00311B50F8B7FCC95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B7947C72590258E271B7BF192D81C2 /* Pods-Skeleton_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C63C5C8ACAB9360DD4133C2DF525F4BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8710D75245569511C5A67402ADDC96AD /* Pods-Skeleton_Tests.debug.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Tests/Pods-Skeleton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Skeleton_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -641,95 +640,210 @@
 			};
 			name = Debug;
 		};
-		C8411ED1CCDC65A05F102A507F49FA34 /* Release */ = {
+		D6BC979FB26159CDEF412A442648ED6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5D60BEF9CBB54AAAAB5531E0F0D9EFB /* Pods-Skeleton_Example.release.xcconfig */;
+			baseConfigurationReference = 257ECF10FAEA30EF7869CC377BABFCEB /* Pods-Skeleton_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Example/Pods-Skeleton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Skeleton_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C891DF7EC6073E26FF9EE26D35BC9955 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3BA8CB4E58E74EDBC1306BB502B3A8 /* Skeleton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Skeleton/Skeleton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Skeleton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Skeleton/Skeleton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Skeleton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		D74B45530D6C7B64DA826BD47D383130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DEC8A85BCA552E1C8AC61763A0C09C /* Pods-Skeleton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Tests/Pods-Skeleton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAC0AF35D28561BFC5008D83723D76E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF15004B958D4758DDFEF48966E189D /* Pods-Skeleton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Skeleton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Skeleton_Example/Pods-Skeleton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD69EB527085A07865CCB996F69CD994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E68722E3C34C8C2FDD85CD20ACB596D /* Skeleton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Skeleton/Skeleton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Skeleton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Skeleton/Skeleton.modulemap";
+				PRODUCT_MODULE_NAME = Skeleton;
+				PRODUCT_NAME = Skeleton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0869398AD2966392C395DADA13CDA2F9 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C63C5C8ACAB9360DD4133C2DF525F4BB /* Debug */,
-				24A18CE08916346AABC7EB933FDB1A0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		12A19D459C4C6FA1AF14804FAE2230CA /* Build configuration list for PBXNativeTarget "Skeleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C891DF7EC6073E26FF9EE26D35BC9955 /* Debug */,
-				7B09E216FAB47493672044C76F4D3379 /* Release */,
+				3361C29DA9645C3A26BB3C1DCA57AB4F /* Debug */,
+				FD69EB527085A07865CCB996F69CD994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -737,8 +851,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,8 +860,17 @@
 		E394E2FEA582E3DA295A0EDAC7713295 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3861F65693D0132E449AC24D148E7933 /* Debug */,
-				C8411ED1CCDC65A05F102A507F49FA34 /* Release */,
+				D6BC979FB26159CDEF412A442648ED6F /* Debug */,
+				DAC0AF35D28561BFC5008D83723D76E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCECF0AF4CACA1503DD12F1FBEF690A5 /* Build configuration list for PBXNativeTarget "Pods-Skeleton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B3F0F211B458A00311B50F8B7FCC95 /* Debug */,
+				D74B45530D6C7B64DA826BD47D383130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

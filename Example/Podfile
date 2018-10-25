@@ -1,4 +1,5 @@
 use_frameworks!
+platform :ios, '9.0'
 
 target 'Skeleton_Example' do
   pod 'Skeleton', :path => '../'

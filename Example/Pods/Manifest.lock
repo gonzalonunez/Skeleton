@@ -1,5 +1,5 @@
 PODS:
-  - Skeleton (0.1.0)
+  - Skeleton (0.2.2)
 
 DEPENDENCIES:
   - Skeleton (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Skeleton: dfdf8ea73afae917a4a2382b850f0f2ec74e8ff9
+  Skeleton: c790e06e96e84e5571286539819cf4022f845cea
 
-PODFILE CHECKSUM: a2fedb2fc395360cbb83a008eb17e4f2b02267ec
+PODFILE CHECKSUM: c4088ec37e5a58f2ebc348c10b3150523aaeb051
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.2
