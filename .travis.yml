@@ -1,5 +1,5 @@
-osx_image: xcode10.3
+osx_image: xcode9.3
 language: objective-c
 script:
-- set -o pipefail && xcodebuild test -workspace Example/Skeleton.xcworkspace -scheme Skeleton-Example -sdk iphonesimulator10.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace Example/Skeleton.xcworkspace -scheme Skeleton-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
