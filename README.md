@@ -4,14 +4,20 @@
 
 
 <p align="center">
-    <a href="http://www.gonzalonunez.me/Skeleton/">
-        <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat" />
+    <a href="https://developer.apple.com/swift">
+        <img src="https://img.shields.io/badge/swift-5.0-red.svg?style=flat" />
     </a>
     <a href="https://cocoapods.org/pods/Skeleton">
         <img src="https://img.shields.io/cocoapods/v/Skeleton.svg?style=flat" />
     </a>
     <a href="https://github.com/Carthage/Carthage">
         <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" />
+    </a>
+    <a href="http://www.gonzalonunez.me/Skeleton/">
+        <img src="https://img.shields.io/cocoapods/p/Skeleton.svg?style=flat" />
     </a>
 </p>
 
@@ -47,7 +53,7 @@ pod "Skeleton"
 Skeleton is also available through [Carthage](https://github.com/Carthage/Carthage). Add this to your Cartfile:
 
 ```
-github "gonzalonunez/Skeleton" ~> 0.4.0
+github "gonzalonunez/Skeleton" ~> 0.4.1
 ```
 
 ## 📄 License
