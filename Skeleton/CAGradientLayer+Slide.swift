@@ -28,17 +28,17 @@ public extension CAGradientLayer {
    - parameter dir: The `Direction` to slide the `CAGradientLayer` in.
    
    - parameter group: A function that takes in and returns a `CAAnimationGroup`. Useful to modify the `CAAnimationGroup` that is used to animate the `CAGradientLayer`. By default, no modifications are made to the corresponding `CAAnimationGroup`.
-   */
+  */
   func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
     let startPointTransition = dir.transition(for: .startPoint)
     let endPointTransition = dir.transition(for: .endPoint)
-    
+
     let startPointAnim = CABasicAnimation(keyPath: #keyPath(startPoint))
     startPointAnim.apply(gradientTransition: startPointTransition)
-    
+
     let endPointAnim = CABasicAnimation(keyPath: #keyPath(endPoint))
     endPointAnim.apply(gradientTransition: endPointTransition)
-    
+
     let animGroup = CAAnimationGroup()
     animGroup.animations = [startPointAnim, endPointAnim]
     animGroup.duration = 1
