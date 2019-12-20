@@ -18,9 +18,10 @@ extension CABasicAnimation {
 
 public extension CAGradientLayer {
   /// The key used for the sliding animation.
-  fileprivate static let kSlidingAnimationKey = "com.ZenunSoftware.Skeleton.SlidingAnimation"
+  private static let kSlidingAnimationKey = "com.ZenunSoftware.Skeleton.SlidingAnimation"
   
-  /** Slide a `CAGradientLayer` in a particular direction.
+  /**
+   Slide a `CAGradientLayer` in a particular direction.
    
    - Important: If using `group`, modify the `CAAnimationGroup` responsibly. Setting the `CAAnimationGroup`s `animations` here **will overwrite the slide animations**.
    
@@ -28,16 +29,16 @@ public extension CAGradientLayer {
    
    - parameter group: A function that takes in and returns a `CAAnimationGroup`. Useful to modify the `CAAnimationGroup` that is used to animate the `CAGradientLayer`. By default, no modifications are made to the corresponding `CAAnimationGroup`.
   */
-  public func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
+  func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
     let startPointTransition = dir.transition(for: .startPoint)
     let endPointTransition = dir.transition(for: .endPoint)
 
     let startPointAnim = CABasicAnimation(keyPath: #keyPath(startPoint))
     startPointAnim.apply(gradientTransition: startPointTransition)
-    
+
     let endPointAnim = CABasicAnimation(keyPath: #keyPath(endPoint))
     endPointAnim.apply(gradientTransition: endPointTransition)
-    
+
     let animGroup = CAAnimationGroup()
     animGroup.animations = [startPointAnim, endPointAnim]
     animGroup.duration = 1
@@ -49,7 +50,7 @@ public extension CAGradientLayer {
   }
   
   /// Stop sliding the `CAGradientLayer`.
-  public func stopSliding() {
+  func stopSliding() {
     removeAnimation(forKey: CAGradientLayer.kSlidingAnimationKey)
   }
 }
