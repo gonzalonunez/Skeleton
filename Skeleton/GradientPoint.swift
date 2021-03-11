@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 /// Represents a valid point for a CAGradientLayer's `startPoint` or `endPoint` when beginning or ending a slide.
 struct GradientPoint {
