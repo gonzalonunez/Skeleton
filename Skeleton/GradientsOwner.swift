@@ -10,7 +10,7 @@ import UIKit
 
 /// A protocol that allows grouping `CAGradientLayer`s together. Useful to have built-in sliding
 /// behavior for all `CAGradientLayer`s in `gradientLayers`.
-public protocol GradientsOwner: class {
+public protocol GradientsOwner: AnyObject {
   /// The `CAGradientLayer`s that will be sliding when `slide(to dir: Direction)` is called.
   var gradientLayers: [CAGradientLayer] { get }
 }
