@@ -17,8 +17,8 @@ public protocol GradientsOwner: AnyObject {
 
 public extension GradientsOwner {
   /// A convenient way to slide the `GradientOwner`'s corresponding `gradientLayers`.
-  func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
-    gradientLayers.forEach({ $0.slide(to: dir, group: group) })
+  func slide(to dir: Direction, duration: CFTimeInterval = 1, group: ((CAAnimationGroup) -> Void) = { _ in }) {
+    gradientLayers.forEach({ $0.slide(to: dir, duration: duration, group: group) })
   }
   
   /// A convenient way to stop sliding the `GradientOwner`'s corresponding `gradientLayers`.

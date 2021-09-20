@@ -22,8 +22,8 @@ extension GradientView {
   }
   
   /// A convenient way to slide the `GradientView`'s corresponding `CAGradientLayer`.
-  func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
-    return gradientLayer.slide(to: dir, group: group)
+  func slide(to dir: Direction, duration: CFTimeInterval = 1, group: ((CAAnimationGroup) -> Void) = { _ in }) {
+    return gradientLayer.slide(to: dir, duration: duration, group: group)
   }
   
   /// A convenient way to stop sliding the `GradientView`'s corresponding `CAGradientLayer`.

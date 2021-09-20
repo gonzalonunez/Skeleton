@@ -29,7 +29,7 @@ public extension CAGradientLayer {
    
    - parameter group: A function that takes in and returns a `CAAnimationGroup`. Useful to modify the `CAAnimationGroup` that is used to animate the `CAGradientLayer`. By default, no modifications are made to the corresponding `CAAnimationGroup`.
   */
-  func slide(to dir: Direction, group: ((CAAnimationGroup) -> Void) = { _ in }) {
+  func slide(to dir: Direction, duration: CFTimeInterval = 1, group: ((CAAnimationGroup) -> Void) = { _ in }) {
     let startPointTransition = dir.transition(for: .startPoint)
     let endPointTransition = dir.transition(for: .endPoint)
 
@@ -41,7 +41,7 @@ public extension CAGradientLayer {
 
     let animGroup = CAAnimationGroup()
     animGroup.animations = [startPointAnim, endPointAnim]
-    animGroup.duration = 1
+    animGroup.duration = duration
     animGroup.timingFunction = CAMediaTimingFunction(name: .easeIn)
     animGroup.repeatCount = .infinity
     
